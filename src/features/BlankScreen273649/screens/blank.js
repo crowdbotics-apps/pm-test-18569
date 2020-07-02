@@ -330,14 +330,14 @@ export class _Blank extends React.Component {
                         paddingBottom: 5,
                         overflow: "visible",
                         verticalAlign: "baseline",
-                        fontSize: 20,
+                        fontSize: 40,
                         color: "#000000",
                         backgroundColor: "#3366FF",
                         fontStyle: "normal",
-                        fontWeight: "normal",
+                        fontWeight: "bold",
                         fontFamily: "System",
-                        borderColor: "#000000",
-                        borderStyle: "solid",
+                        borderColor: "#ffffff",
+                        borderStyle: "dotted",
                         borderWidth: 0,
                         borderLeftWidth: 0,
                         borderRightWidth: 0,
@@ -347,7 +347,7 @@ export class _Blank extends React.Component {
                       }}
                       onPress={() => alert("Pressed!")}
                     >
-                      Press me!
+                      Julian
                     </Button>
                   </View>
                   <View
